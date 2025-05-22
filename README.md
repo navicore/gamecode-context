@@ -1,3 +1,6 @@
+[![Dependabot Updates](https://github.com/navicore/gamecode-context/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/navicore/gamecode-context/actions/workflows/dependabot/dependabot-updates)
+[![Rust CI](https://github.com/navicore/gamecode-context/actions/workflows/rust-ci.yml/badge.svg)](https://github.com/navicore/gamecode-context/actions/workflows/rust-ci.yml)
+
 # gamecode-context
 
 A Rust library for LLM context management and session persistence, designed for gamecode applications.
