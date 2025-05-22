@@ -1,0 +1,23 @@
+[package]
+name = "gamecode-context"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Ed Sweeney <ed@onextent.com>"]
+description = "LLM context management and session persistence for gamecode applications"
+repository = "https://github.com/navicore/gamecode-context"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1.0", features = ["v4", "serde"] }
+tokio = { version = "1.0", features = ["fs"] }
+anyhow = "1.0"
+thiserror = "1.0"
+tracing = "0.1"
+home = "0.5"
+
+[dev-dependencies]
+tokio-test = "0.4"
+tempfile = "3.0"
